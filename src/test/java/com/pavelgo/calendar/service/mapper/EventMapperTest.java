@@ -3,7 +3,6 @@ package com.pavelgo.calendar.service.mapper;
 import com.pavelgo.calendar.service.dto.EventDto;
 import com.pavelgo.calendar.service.entity.EventEntity;
 import org.junit.jupiter.api.Test;
-import org.testcontainers.shaded.org.yaml.snakeyaml.events.Event;
 
 import java.time.LocalDateTime;
 import java.util.List;
