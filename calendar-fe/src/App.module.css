@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #282c34;
+    padding: 12px 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navlink {
+    color: #61dafb;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.navlink:hover {
+    color: #21a1f1;
+    text-decoration: underline;
+}
