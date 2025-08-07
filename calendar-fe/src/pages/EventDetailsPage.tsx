@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { EventDTO } from '../types';
-import styles from '../EventDetailsPage.module.css';
+import styles from '../styles/EventDetailsPage.module.css';
 
 const EventDetailsPage: React.FC = () => {
     const { id } = useParams<{ id: string }>();

@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import CalendarPage from './pages/CalendarPage';
 import AddEventPage from './pages/AddEventPage';
 import EventDetailsPage from './pages/EventDetailsPage';
-import styles from './App.module.css';
+import styles from './styles/App.module.css';
 
 function App() {
     return (

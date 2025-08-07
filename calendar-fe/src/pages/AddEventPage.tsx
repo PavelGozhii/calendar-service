@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { EventDTO } from '../types';
-import styles from '../AddEventPage.module.css';
+import styles from '../styles/AddEventPage.module.css';
 
 const AddEventPage: React.FC = () => {
     const nav = useNavigate();
